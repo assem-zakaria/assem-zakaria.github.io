@@ -24,6 +24,11 @@ Author URL: N/A
   	// GSAP Plugin Registeration
   		gsap.registerPlugin(ScrollTrigger);
 
+  		ScrollTrigger.config({
+			  // limitCallbacks: true,
+			  ignoreMobileResize: true,
+			});
+
 
   	//	Update ScrollTrigger on resize
   		let resizeTimeout;
