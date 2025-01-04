@@ -574,7 +574,7 @@ Author URL: N/A
 						    pin: true,
 						    start: "top top",
 						  	end: "+=1200%",
-						    scrub: 0,
+						    scrub: true,
 						  }
 						});
 
@@ -582,8 +582,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(signup_logo, {
 						    autoAlpha: 0,
 						    yPercent: -50,
-						    duration: 2,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  });
 
@@ -591,8 +591,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(signup_form, {
 						    autoAlpha: 0,
 						    yPercent: -50,
-						    duration: 2,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<=30%")
 
@@ -600,8 +600,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(step_text_els[0].querySelector('span'), {
 						    autoAlpha: 1,
 						    yPercent: 0,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<")
 
@@ -610,8 +610,8 @@ Author URL: N/A
 						    autoAlpha: 0.15,
 						    yPercent: 0,
 						    scale: 1,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<=20%")
 
@@ -619,8 +619,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(step_text_els[0].querySelector('span'), {
 						    autoAlpha: 0,
 						    yPercent: -100,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  })
 
@@ -629,8 +629,8 @@ Author URL: N/A
 						    autoAlpha: 0,
 						    yPercent: -100,
 						    scale: 1.5,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<=30%")
 
@@ -638,8 +638,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(step_text_els[1].querySelectorAll('span')[0], {
 						    autoAlpha: 1,
 						    yPercent: 0,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<=30%")
 
@@ -647,8 +647,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(step_text_els[1].querySelectorAll('span')[1], {
 						    autoAlpha: 1,
 						    yPercent: 0,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<=30%")
 
@@ -657,8 +657,8 @@ Author URL: N/A
 						    autoAlpha: 0.15,
 						    yPercent: 0,
 						    scale: 1,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<")
 
@@ -666,8 +666,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(step_text_els[1].querySelectorAll('span')[0], {
 						    autoAlpha: 0,
 						    yPercent: -100,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  })
 
@@ -675,8 +675,8 @@ Author URL: N/A
 						mobile_scrub_timeline.to(step_text_els[1].querySelectorAll('span')[1], {
 						    autoAlpha: 0,
 						    yPercent: -500,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<=30%")
 
@@ -685,8 +685,8 @@ Author URL: N/A
 						    autoAlpha: 0,
 						    yPercent: -100,
 						    scale: 1.5,
-						    duration: 3,
-						    ease: "power2.inOut",
+						    duration: 0,
+						    ease: "none",
 						    overwrite: "auto",
 						  }, "<")
 
@@ -694,7 +694,7 @@ Author URL: N/A
 						mobile_scrub_timeline.to(whole_diagram_svg_el, {
 						    autoAlpha: 1,
 						    scale: 1,
-						    duration: 2,
+						    duration: 0,
 						    overwrite: "auto",
 						  }, "<=80%");
 
