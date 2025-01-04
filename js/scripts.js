@@ -574,7 +574,7 @@ Author URL: N/A
 						    pin: true,
 						    start: "top top",
 						  	end: "+=1200%",
-						    scrub: 1,
+						    scrub: 0,
 						  }
 						});
 
