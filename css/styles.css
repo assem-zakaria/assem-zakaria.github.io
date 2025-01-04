@@ -211,6 +211,7 @@ Author URL: N/A
         align-items: center;
         padding: 30px 50px;
         border-bottom: 1px #ffffff1f solid;
+        background: linear-gradient(to right, #1c1c6f 0%, #000000 38%);
     }
 
     header > a img {
@@ -765,6 +766,7 @@ Author URL: N/A
         align-items: center;
         justify-content: space-between;
         border-top: 1px #ffffff1f solid;
+        background: linear-gradient(to right, #1c1c6f 0%, #000000 38%);
     }
 
     footer .left-cont {
