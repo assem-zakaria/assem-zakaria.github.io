@@ -24,19 +24,7 @@ Author URL: N/A
   	// GSAP Plugin Registeration
   		gsap.registerPlugin(ScrollTrigger);
 
-  		ScrollTrigger.config({
-			  ignoreMobileResize: true,
-			});
-
-
-  	//	Update ScrollTrigger on resize
-  		// let resizeTimeout;
-			// window.addEventListener('resize', () => {
-			//     clearTimeout(resizeTimeout);
-			//     resizeTimeout = setTimeout(() => {
-			//         ScrollTrigger.refresh();
-			//     }, 200); // Adjust the timeout duration as needed
-			// });
+  		ScrollTrigger.config({ ignoreMobileResize: true, normalizeScroll: true })
 
 
   	//	Variables
@@ -217,6 +205,15 @@ Author URL: N/A
 			//	Desktop Timeline Function
 				function desktop_TL() {
 				
+					//	Update ScrollTrigger on resize
+			  		let resizeTimeout;
+						window.addEventListener('resize', () => {
+						    clearTimeout(resizeTimeout);
+						    resizeTimeout = setTimeout(() => {
+						        ScrollTrigger.refresh();
+						    }, 200); // Adjust the timeout duration as needed
+						});
+
 					//	Scroll Trigger Timeline
 						const desktop_scrub_timeline = gsap.timeline({
 						  scrollTrigger: {
