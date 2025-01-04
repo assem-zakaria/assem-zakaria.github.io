@@ -25,19 +25,18 @@ Author URL: N/A
   		gsap.registerPlugin(ScrollTrigger);
 
   		ScrollTrigger.config({
-			  // limitCallbacks: true,
 			  ignoreMobileResize: true,
 			});
 
 
   	//	Update ScrollTrigger on resize
-  		let resizeTimeout;
-			window.addEventListener('resize', () => {
-			    clearTimeout(resizeTimeout);
-			    resizeTimeout = setTimeout(() => {
-			        ScrollTrigger.refresh();
-			    }, 200); // Adjust the timeout duration as needed
-			});
+  		// let resizeTimeout;
+			// window.addEventListener('resize', () => {
+			//     clearTimeout(resizeTimeout);
+			//     resizeTimeout = setTimeout(() => {
+			//         ScrollTrigger.refresh();
+			//     }, 200); // Adjust the timeout duration as needed
+			// });
 
 
   	//	Variables
