@@ -1005,7 +1005,7 @@ Author URL: N/A
             svg.mobile-arrow-down {
                 display: block;
                 width: 30px;
-                margin: 0 auto;
+                margin: 0 auto 20px auto;
             }
 
             #mobile-wiring-diagram {
