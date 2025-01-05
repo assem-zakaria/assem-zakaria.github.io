@@ -232,7 +232,6 @@ Author URL: N/A
 						    start: "top top",
 						  	end: "+=1200%",
 						    scrub: 1,
-						    invalidateOnRefresh: true,
 						  }
 						});
 
@@ -588,7 +587,6 @@ Author URL: N/A
 							    trigger: step_el,
 							    start: "top bottom",
 							  	end: "bottom top",
-							  	invalidateOnRefresh: true,
 							  	// markers: true
 							  }
 							});
@@ -647,7 +645,6 @@ Author URL: N/A
 						      trigger: element,
 						      start: "top bottom",
 							  	end: "bottom top",
-							  	invalidateOnRefresh: true,
 						    }
 						  });
 						});
@@ -662,7 +659,6 @@ Author URL: N/A
 					      trigger: "#mobile-plain-wiring-diagram",
 					      start: "top bottom",
 						  	end: "bottom top",
-						  	invalidateOnRefresh: true,
 					    }
 					  });
 
@@ -677,7 +673,6 @@ Author URL: N/A
 					      trigger: "#mobile-wiring-diagram",
 					      start: "top bottom",
 						  	end: "bottom top",
-						  	invalidateOnRefresh: true,
 					    }
 					  });
 
@@ -690,7 +685,6 @@ Author URL: N/A
 					      trigger: "#mobile-table",
 					      start: "top bottom",
 						  	end: "bottom top",
-						  	invalidateOnRefresh: true,
 					    }
 					  });
 
@@ -703,7 +697,6 @@ Author URL: N/A
 					      trigger: "#mobile-parts-calculator",
 					      start: "top bottom",
 						  	end: "bottom top",
-						  	invalidateOnRefresh: true,
 					    }
 					  });
 
