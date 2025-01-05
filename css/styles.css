@@ -1016,9 +1016,14 @@ Author URL: N/A
                 margin: 0 auto 20px auto;
             }
 
+            #mobile-plain-wiring-diagram {
+                display: flex;
+            }
+
             #mobile-wiring-diagram {
                 display: flex;
             }
+
 
             #mobile-table {
                 background: linear-gradient(0deg, #1c1c6f 0%, rgba(0, 0, 0, 1) 80%);
@@ -1177,16 +1182,22 @@ Author URL: N/A
                 gap: 30px;
                 padding: 0px 20px;
                 margin-bottom: 30px;
+                align-items: center;
             }
 
             #mobile-pc-left {
+                height: 130px;
                 border: 1px #ffffff66 solid;
-                border-radius: 20px;
+                border-radius: 13px;
                 width: 100%;
-                aspect-ratio: 1 / 1;
+                aspect-ratio: 2 / 1;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+
+            #mobile-pc-left svg {
+                height: 90px;
             }
 
             #mobile-pc-right {
